@@ -128,11 +128,9 @@ def menambah_data_guru():
 
 from prettytable import PrettyTable
 def menampilkan_data_demografi():
-    print('\n📊 Data Demografi Guru')
-    print('=' * 110)
+    print('\n Data Demografi Guru')
     tabel = PrettyTable()
     tabel.field_names = ["Index", "ID Guru", "Nama", "Tanggal Lahir", "Jenis Kelamin", "Usia", "Warna Kepribadian"]
-    # print('=' * 110)
     for i, guru in enumerate(data_guru):
         tabel.add_row([
             i,
@@ -144,11 +142,10 @@ def menampilkan_data_demografi():
             guru['warna_kepribadian']
         ])
         tabel.align = "l"
-        print(tabel)
-    print('=' * 110 + '\n')
+    print(tabel)
 
 def menampilkan_data_burnout():
-    print("\n🔥 Data Burnout:\n")
+    print("\n Data Burnout:\n")
     for guru in data_guru:
         print(f"{id_guru(guru)}: Burnout = {tingkat_burnout(guru)}")
     print()
