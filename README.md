@@ -1,5 +1,6 @@
 # Capstone_1_ian_cahyaningtyas
-Project Capstone 1: Aplikasi CRUD menggunakan python
+Project Capstone 1: Aplikasi CRUD menggunakan python.
+
 Teacher burnout adalah suatu kondisi dimana guru mengalami kelelahan emosional, fisik, dan mental. Kondisi ini dapat terjadi akibat tekanan kerja yang berlebihan dan berkepanjangan. Teacher burnout ditandai dengan penurunan motivasi untuk mengajar dan sikap negatif terhadap pekerjaan siswa. Kondisi ini tentu tidak diharapkan karena dapat mempengaruhi kualitas pendidikan, kesehatan mental di sekolah, dan retensi guru di sekolah dimana guru tersebut mengabdi. Oleh karena itu, saya membuat aplikasi CRUD mengenai teacher burnout untuk memprediksi guru dengan resiko burnout yang tinggi untuk diberikan intervensi dini.
 
 Dalam aplikasi CRUD ini, setiap guru memiliki ID unik yang terdiri dari nama lengkap dan tanggal lahir.
